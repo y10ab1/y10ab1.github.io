@@ -9,15 +9,11 @@ languages:
         languageName: English
         title: Example Site
         weight: 1
-    zh-cn:
+    zh-tw:
         languageName: 中文
-        title: 演示站点
+        title: y10ab1的blog
         weight: 2
-    ar:
-        languageName: عربي
-        languagedirection: rtl
-        title: موقع تجريبي
-        weight: 3
+
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -196,15 +192,11 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/y10ab1
           params:
               icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
-          params:
-              icon: brand-twitter
+        
 
 related:
     includeNewer: true
