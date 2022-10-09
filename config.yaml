@@ -191,15 +191,28 @@ menu:
 
     social:
         - identifier: github
+          weight: 1
           name: GitHub
           url: https://github.com/y10ab1
           params:
               icon: brand-github
         - identifier: gmail
+          weight: 2
           name: Gmail
           url: mailto:yuehpo.peng@gmail.com
           params:
-              icon: brand-gmail
+              icon: email
+        - identifier: linkedin
+          weight: 3
+          name: LinkedIn
+          url: https://www.linkedin.com/in/yueh-po-peng/
+          params:
+              icon: brand-linkedin
+        - identifier: cv
+          name: CV
+          url: 
+          params:
+              icon: file-text
 
         
 
