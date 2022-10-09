@@ -1,13 +1,13 @@
-baseurl: https://example.com
+baseurl: https://y10ab1.github.io/
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: y10ab1's blog
 
 languages:
     en:
         languageName: English
-        title: Example Site
+        title: y10ab1's blog
         weight: 1
     zh-tw:
         languageName: 中文
@@ -49,12 +49,12 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        emoji: 
+        subtitle:
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: img/MyAvatar_new.png
 
     article:
         math: false
@@ -195,6 +195,11 @@ menu:
           url: https://github.com/y10ab1
           params:
               icon: brand-github
+        - identifier: gmail
+          name: Gmail
+          url: mailto:yuehpo.peng@gmail.com
+          params:
+              icon: brand-gmail
 
         
 
