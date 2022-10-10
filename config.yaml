@@ -206,8 +206,9 @@ menu:
           params:
               icon: brand-linkedin
         - identifier: cv
+          weight: 4
           name: CV
-          url: 
+          url: https://y10ab1.github.io/myCV/cv.pdf
           params:
               icon: file-text
 
