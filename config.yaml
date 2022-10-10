@@ -9,10 +9,7 @@ languages:
         languageName: English
         title: y10ab1's blog
         weight: 1
-    zh-tw:
-        languageName: 中文
-        title: y10ab1的blog
-        weight: 2
+
 
 
 # Change it to your Disqus shortname before using
