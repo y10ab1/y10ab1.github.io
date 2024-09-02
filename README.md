@@ -49,11 +49,11 @@ I am a Research Assistant at the Institute of Information Science, Academia Sini
 
 ## <span style="color:#4682B4;">Publications</span>
 
-1. **Ying-Shuo Lee*, Yueh-Po Peng*, Jui-Te Wu, Ming Cheng, Li Su, and Yi-Hsuan Yang** (2024).  
+1. Ying-Shuo Lee*, **Yueh-Po Peng***, Jui-Te Wu, Ming Cheng, Li Su, and Yi-Hsuan Yang (2024).  
    “Distortion recovery: A two-stage method for guitar effect removal.”  
    In Proc. Int. Conf. Digital Audio Effects (DAFx), 2024. (* equally contributed)
 
-2. **Cheung, V. K.*, Peng, Y. P.*, Lin, J. H., & Su, L.** (2023, June).  
+2. Cheung, V. K.*, **Peng, Y. P.***, Lin, J. H., & Su, L. (2023, June).  
    “Decoding Musical Pitch from Human Brain Activity with Automatic Voxel-Wise Whole-Brain FMRI Feature Selection.”  
    In ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), (pp. 1-5). IEEE. (* equally contributed)
 
