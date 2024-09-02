@@ -28,8 +28,11 @@ I am a Research Assistant at the Institute of Information Science, Academia Sini
 
 ## Education
 
-- **M.S. in Data Science** | National Taiwan University | Feb. 2023 - Jun. 2024
-- **B.S. in Computer Science and Information Engineering** | National Taiwan University | Sep. 2019 - Jan. 2022
+- **M.S. in Data Science**  
+  National Taiwan University (Feb. 2023 - Jun. 2024)
+
+- **B.S. in Computer Science and Information Engineering**  
+  National Taiwan University (Sep. 2019 - Jan. 2022)
 
 ## Research & Projects
 
@@ -37,7 +40,7 @@ I am a Research Assistant at the Institute of Information Science, Academia Sini
 **Machine Learning Research on Removing Distortion Effect from Electric Guitar**  
 - Proposed a two-stage method to remove distortion effects from guitar recordings using Positive Grid VST plugins.
 - Analyzed baseline models on synthetic and VST-rendered effects, demonstrating superior performance.
-- Published in DAFx 2024. [Paper](https://arxiv.org/abs/2407.16639) | [Demo](https://y10ab1.github.io/guitar_effect_removal/)
+- Published in DAFx 2024. [Paper](https://arxiv.org/abs/2407.16639), [Demo](https://y10ab1.github.io/guitar_effect_removal/)
 
 ### Whole Brain fMRI Features Selection  
 **Machine Learning Research to Find Correlation Between fMRI and Musical Pitch**  
