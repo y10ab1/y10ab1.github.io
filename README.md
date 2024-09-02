@@ -1,4 +1,4 @@
-# <span style="color:#4aa2c1;">Yueh-Po Peng</span>
+# <span style="color:#4682B4;">Yueh-Po Peng</span>
 
 [![Email](https://img.shields.io/badge/Email-yuehpo.peng@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yuehpo.peng@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-y10ab1-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/y10ab1)
