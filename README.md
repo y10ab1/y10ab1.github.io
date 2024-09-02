@@ -11,27 +11,27 @@ I am a Research Assistant at the Institute of Information Science, Academia Sini
 
 ## <span style="color:#4682B4;">Experience</span>
 
-- **Research Assistant**  
-  Institute of Information Science, Academia Sinica, Taipei, Taiwan (Jul. 2024 – Present)  
+- **Institute of Information Science, Academia Sinica, Taipei, Taiwan**  
+  Research Assistant (Jul. 2024 – Present)  
   - Surveyed end-to-end self-supervised learning methods for decoding mental states from brain activity (fMRI).
   - Conducted distributed training experiments on large-scale, high-resolution 4D fMRI data using TWCC HPC.
 
-- **Research & Development - AI Intern**  
-  Tomofun, Taipei, Taiwan (Mar. 2023 – Jul. 2024)  
+- **Tomofun, Taipei, Taiwan**  
+  Research & Development - AI Intern (Mar. 2023 – Jul. 2024)  
   - Developed an automatic short music video generation system for daily pet clips.
   - Surveyed various strategies of visual language models (LLaVA) to generate image-caption pairs for knowledge distillation.
 
-- **Research Assistant**  
-  Institute of Information Science, Academia Sinica, Taipei, Taiwan (Mar. 2022 – Feb. 2023)  
+- **Institute of Information Science, Academia Sinica, Taipei, Taiwan**  
+  Research Assistant (Mar. 2022 – Feb. 2023)  
   - Proposed a whole-brain feature selection method for decoding musical pitch from brain activity (fMRI).
 
 ## <span style="color:#4682B4;">Education</span>
 
-- **M.S. in Data Science**  
-  National Taiwan University (Feb. 2023 - Jun. 2024)
+- **National Taiwan University**  
+  M.S. in Data Science (Feb. 2023 – Jun. 2024)
 
-- **B.S. in Computer Science and Information Engineering**  
-  National Taiwan University (Sep. 2019 - Jan. 2022)
+- **National Taiwan University**  
+  B.S. in Computer Science and Information Engineering (Sep. 2019 – Jan. 2022)
 
 ## <span style="color:#4682B4;">Research & Projects</span>
 
