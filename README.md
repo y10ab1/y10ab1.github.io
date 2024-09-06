@@ -1,10 +1,10 @@
 # <span style="color:#4682B4;">Yueh-Po Peng</span>
 
-[![Email](https://img.shields.io/badge/Email-yuehpo.peng@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yuehpo.peng@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-y10ab1-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/y10ab1)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-yueh--po--peng-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yueh-po-peng)
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-34A853?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=uFf4DmoAAAAJ)
-[![CV](https://img.shields.io/badge/CV-Download-4A90E2?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/y10ab1.github.io/CV.pdf)
+[![Email](https://img.shields.io/badge/Email-yuehpo.peng@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:yuehpo.peng@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-y10ab1-181717?style=flat&logo=github&logoColor=white)](https://github.com/y10ab1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-yueh--po--peng-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yueh-po-peng)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-34A853?style=flat&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=uFf4DmoAAAAJ)
+[![CV](https://img.shields.io/badge/CV-Download-4A90E2?style=flat&logo=adobeacrobatreader&logoColor=white)](https://github.com/y10ab1.github.io/CV.pdf)
 
 ## <span style="color:#4682B4;">About Me</span>
 
