@@ -8,7 +8,8 @@
 
 [![Mail](assets/mail-svgrepo-com.svg)](mailto:yuehpo.peng@gmail.com) |
 [![GitHub](assets/github-142-svgrepo-com.svg)](https://github.com/y10ab1) |
-[![LinkedIn](assets/linkedin-svgrepo-com.svg)](https://linkedin.com/in/yueh-po-peng)
+[![LinkedIn](assets/linkedin-svgrepo-com.svg)](https://linkedin.com/in/yueh-po-peng) |
+[![Google Scholar](assets/googlescholar-svgrepo-com.svg)](https://scholar.google.com/citations?user=uFf4DmoAAAAJ)
 
 </span>
 
