@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>What is Awesome CV&quest;</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 align="center">
+  <a href="https://github.com/posquit0/Awesome-CV" title="AwesomeCV Documentation">
+    <img alt="AwesomeCV" src="https://github.com/posquit0/Awesome-CV/raw/master/icon.png" width="200px" height="200px" />
+  </a>
+  <br />
+  Awesome CV
+</h1>
+<p align="center">
+  LaTeX template for your outstanding job application
+</p>
+<div align="center">
+  <a href="https://www.paypal.me/posquit0">
+    <img alt="Donate" src="https://img.shields.io/badge/Donate-PayPal-blue.svg" />
+  </a>
+  <a href="https://circleci.com/gh/posquit0/Awesome-CV">
+    <img alt="CircleCI" src="https://circleci.com/gh/posquit0/Awesome-CV.svg?style=shield" />
+  </a>
+  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf">
+    <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-green.svg" />
+  </a>
+  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/cv.pdf">
+    <img alt="Example CV" src="https://img.shields.io/badge/cv-pdf-green.svg" />
+  </a>
+  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf">
+    <img alt="Example Coverletter" src="https://img.shields.io/badge/coverletter-pdf-green.svg" />
+  </a>
+</div>
+<br />
+<h2 id="what-is-awesome-cv">What is Awesome CV?</h2>
+<p><strong>Awesome CV</strong> is LaTeX template for a <strong>CV(Curriculum Vitae)</strong>, <strong>Résumé</strong> or <strong>Cover Letter</strong> inspired by <a href="https://www.sharelatex.com/templates/cv-or-resume/fancy-cv">Fancy CV</a>. It is easy to customize your own template, especially since it is really written by a clean, semantic markup.</p>
+<h2 id="donate">Donate</h2>
+<p>Please help keep this project alive! Donations are welcome and will go towards further development of this project.</p>
+<pre><code>PayPal: paypal.me/posquit0
+BTC: 1Je3DxJVM2a9nTVPNo55SfQwpmxA6N2KKb
+BCH: 1Mg1wG7PwHGrHYSWS67TsGSjo5GHEVbF16
+ETH: 0x77ED9B4659F80205E9B9C9FB1E26EDB9904AFCC7
+QTUM: QZT7D6m3QtTTqp7s4ZWAwLtGDsoHMMaM8E
+</code></pre>
+<p><em>Thank you for your support!</em></p>
+<h2 id="preview">Preview</h2>
+<h4 id="résumé">Résumé</h4>
+<p>You can see <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf">PDF</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Page. 1</th>
+<th style="text-align:center">Page. 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf"><img src="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-0.png" alt="Résumé"></a></td>
+<td style="text-align:center"><a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf"><img src="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-1.png" alt="Résumé"></a></td>
+</tr>
+</tbody>
+</table>
+<h4 id="cover-letter">Cover Letter</h4>
+<p>You can see <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf">PDF</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Without Sections</th>
+<th style="text-align:center">With Sections</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf"><img src="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-0.png" alt="Cover Letter(Traditional)"></a></td>
+<td style="text-align:center"><a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf"><img src="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-1.png" alt="Cover Letter(Awesome)"></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="quick-start">Quick Start</h2>
+<ul>
+<li><a href="https://www.overleaf.com/latex/templates/awesome-cv/tvmzpvdjfqxp"><strong>Edit Résumé on OverLeaf.com</strong></a></li>
+<li><a href="https://www.overleaf.com/latex/templates/awesome-cv-cover-letter/pfzzjspkthbk"><strong>Edit Cover Letter on OverLeaf.com</strong></a></li>
+</ul>
+<p><strong><em>Note:</em> Above services do not guarantee up-to-date source code of Awesome CV</strong></p>
+<h2 id="how-to-use">How to Use</h2>
+<h4 id="requirements">Requirements</h4>
+<p>A full TeX distribution is assumed.  <a href="http://tex.stackexchange.com/q/55437">Various distributions for different operating systems (Windows, Mac, *nix) are available</a> but TeX Live is recommended.
+You can <a href="http://tex.stackexchange.com/q/1092">install TeX from upstream</a> (recommended; most up-to-date) or use <code>sudo apt-get install texlive-full</code> if you really want that.  (It's generally a few years behind.)</p>
+<h4 id="usage">Usage</h4>
+<p>At a command prompt, run</p>
+<pre><code class="language-bash">$ xelatex {your-cv}.tex
+</code></pre>
+<p>This should result in the creation of <code>{your-cv}.pdf</code></p>
+<h2 id="credit">Credit</h2>
+<p><a href="http://www.latex-project.org"><strong>LaTeX</strong></a> is a fantastic typesetting program that a lot of people use these days, especially the math and computer science people in academia.</p>
+<p><a href="https://github.com/furl/latex-fontawesome"><strong>LaTeX FontAwesome</strong></a> is bindings for FontAwesome icons to be used in XeLaTeX.</p>
+<p><a href="https://github.com/google/roboto"><strong>Roboto</strong></a> is the default font on Android and ChromeOS, and the recommended font for Google’s visual language, Material Design.</p>
+<p><a href="https://github.com/adobe-fonts/source-sans-pro"><strong>Source Sans Pro</strong></a> is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.</p>
+<h2 id="contact">Contact</h2>
+<p>You are free to take my <code>.tex</code> file and modify it to create your own resume. Please don't use my resume for anything else without my permission, though!</p>
+<p>If you have any questions, feel free to join me at <a href="irc://irc.freenode.net/posquit0"><code>#posquit0</code> on Freenode</a> and ask away. Click <a href="https://kiwiirc.com/client/irc.freenode.net/posquit0">here</a> to connect.</p>
+<p>Good luck!</p>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><a href="https://github.com/posquit0/hugo-awesome-identity">Awesome Identity</a> - A single-page Hugo theme to introduce yourself.</li>
+</ul>
+
+            <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+            
+        </body>
+        </html>
