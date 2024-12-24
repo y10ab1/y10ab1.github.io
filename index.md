@@ -1,25 +1,16 @@
 <link rel="stylesheet" type="text/css" href="resume.css">
 
-<span class="name">Yueh-Po Peng</span>
+<!-- <span class="name">Yueh-Po Peng</span> -->
+
+# Yueh-Po Peng
 
 <span class="info">
 
-[![Mail](https://simpleicons.org/icons/minutemailer.svg) yuehpo.peng@gmail.com](mailto:yuehpo.peng@gmail.com)
-[![GitHub](https://simpleicons.org/icons/github.svg) github.com/y10ab1](https://github.com/y10ab1)
-[![LinkedIn](https://simpleicons.org/icons/linkedin.svg) linkedin.com/in/yueh-po-peng](https://linkedin.com/in/yueh-po-peng)
+[![Mail](assets/mail-svgrepo-com.svg)](mailto:yuehpo.peng@gmail.com) |
+[![GitHub](assets/github-142-svgrepo-com.svg)](https://github.com/y10ab1) |
+[![LinkedIn](assets/linkedin-svgrepo-com.svg)](https://linkedin.com/in/yueh-po-peng)
 
 </span>
-
-## Education
-
-### National Taiwan University | Taipei, Taiwan <time> Feb 2023 – Jun 2024 </time>
-- M.S. in Data Science
-- Thesis topic: Whole‑Brain Feature Selection Methods for Decoding from fMRI Data
-
-### National Taiwan University | Taipei, Taiwan <time> Sep 2019 – Jan 2022 </time>
-- B.S. in Computer Science and Information Engineering (CSIE)
-
----
 
 ## Experience
 
@@ -28,8 +19,7 @@
 - Working on advanced AI-driven research projects in cryptocurrency and financial analytics.
 
 ### Research Assistant <time> Jul 2024 – Oct 2024 </time>
-**Institute of Information Science, Academia Sinica**  
-**Supervisor**: Dr. Li Su  
+**Institute of Information Science, Academia Sinica | Supervisor: Dr. Li Su**  
 - Surveyed end-to-end self-supervised learning methods for decoding mental states from fMRI data.
 - Conducted distributed training experiments on high-resolution 4D medical images (fMRI) using TWCC HPC.
 - Proposed a whole-brain feature selection method for decoding musical pitch from fMRI [2].
@@ -40,6 +30,17 @@
 - Fine-tuned visual language models (e.g., BLIP), achieving a 20.6% improvement in visual question answering.
 - Enhanced LLaVA image inference speed by 250% with only a 3% accuracy reduction.
 - Developed APIs for visual language models using llama.cpp/ollama for image-caption pair datasets.
+
+---
+
+## Education
+
+### National Taiwan University | Taipei, Taiwan <time> Feb 2023 – Jun 2024 </time>
+- M.S. in Data Science
+- Thesis topic: Whole‑Brain Feature Selection Methods for Decoding from fMRI Data
+
+### National Taiwan University | Taipei, Taiwan <time> Sep 2019 – Jan 2022 </time>
+- B.S. in Computer Science and Information Engineering (CSIE)
 
 ---
 

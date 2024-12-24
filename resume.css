@@ -68,13 +68,13 @@ li {
 /* assume images are icons */
 /* icons for skills/tools */
 .info img {
-    width: 15px;
+    width: 20px;
 }
 
 /* assume images are icons */
 /* icons for contact info */
 .info a img {
-    width: 12px;
+    width: 15px;
 }
 
 a {
