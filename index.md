@@ -18,7 +18,8 @@
 **Gate.io** <location>**Taipei, Taiwan (Remote)**</location>
 <!-- - Working on advanced AI-driven research projects in cryptocurrency and financial analytics. -->
 
-### Research Assistant <time> Jul 2024 – Oct 2024 </time>
+<!-- ### Research Assistant <time> Jul 2024 – Oct 2024 </time> -->
+### Research Assistant <time> Mar 2022 – Oct 2024 </time>
 **Institute of Information Science, Academia Sinica | Supervisor: Dr. Li Su** <location>**Taipei, Taiwan**</location>
 - Surveyed end-to-end self-supervised learning methods for decoding mental states from fMRI data.
 - Conducted distributed training experiments on high-resolution 4D medical images (fMRI) using TWCC HPC.
