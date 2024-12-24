@@ -16,7 +16,7 @@
 
 ### AI Engineer <time> Oct 2024 – Present </time>
 **Gate.io** <location>**Taipei, Taiwan (Remote)**</location>
-- Working on advanced AI-driven research projects in cryptocurrency and financial analytics.
+<!-- - Working on advanced AI-driven research projects in cryptocurrency and financial analytics. -->
 
 ### Research Assistant <time> Jul 2024 – Oct 2024 </time>
 **Institute of Information Science, Academia Sinica | Supervisor: Dr. Li Su** <location>**Taipei, Taiwan**</location>
