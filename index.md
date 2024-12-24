@@ -25,7 +25,7 @@
 - Proposed a whole-brain feature selection method for decoding musical pitch from fMRI [2].
 
 ### AI Engineer Intern <time> Mar 2023 – Jul 2024 </time>
-**Tomofunn** <location>**Taipei, Taiwan**</location>
+**Tomofun** <location>**Taipei, Taiwan**</location>
 - Developed an automatic short music video generation system for daily pet clips.
 - Fine-tuned visual language models (e.g., BLIP), achieving a 20.6% improvement in visual question answering.
 - Enhanced LLaVA image inference speed by 250% with only a 3% accuracy reduction.
