@@ -15,17 +15,17 @@
 ## Experience
 
 ### AI Engineer <time> Oct 2024 – Present </time>
-**Gate.io | Taipei, Taiwan (Remote)**  
+**Gate.io** <location>**Taipei, Taiwan (Remote)**</location>
 - Working on advanced AI-driven research projects in cryptocurrency and financial analytics.
 
 ### Research Assistant <time> Jul 2024 – Oct 2024 </time>
-**Institute of Information Science, Academia Sinica | Supervisor: Dr. Li Su**  
+**Institute of Information Science, Academia Sinica | Supervisor: Dr. Li Su** <location>**Taipei, Taiwan**</location>
 - Surveyed end-to-end self-supervised learning methods for decoding mental states from fMRI data.
 - Conducted distributed training experiments on high-resolution 4D medical images (fMRI) using TWCC HPC.
 - Proposed a whole-brain feature selection method for decoding musical pitch from fMRI [2].
 
 ### AI Engineer Intern <time> Mar 2023 – Jul 2024 </time>
-**Tomofun | Taipei, Taiwan**  
+**Tomofunn** <location>**Taipei, Taiwan**</location>
 - Developed an automatic short music video generation system for daily pet clips.
 - Fine-tuned visual language models (e.g., BLIP), achieving a 20.6% improvement in visual question answering.
 - Enhanced LLaVA image inference speed by 250% with only a 3% accuracy reduction.
@@ -35,11 +35,13 @@
 
 ## Education
 
-### National Taiwan University | Taipei, Taiwan <time> Feb 2023 – Jun 2024 </time>
+### National Taiwan University <time> Feb 2023 – Jun 2024 </time>
+<location>**Taipei, Taiwan**</location>
 - M.S. in Data Science
 - Thesis topic: Whole‑Brain Feature Selection Methods for Decoding from fMRI Data
 
-### National Taiwan University | Taipei, Taiwan <time> Sep 2019 – Jan 2022 </time>
+### National Taiwan University <time> Sep 2019 – Jan 2022 </time>
+<location>**Taipei, Taiwan**</location>
 - B.S. in Computer Science and Information Engineering (CSIE)
 
 ---

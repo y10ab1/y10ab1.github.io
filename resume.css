@@ -92,8 +92,9 @@ time {
 }
 
 location {
+    float: right;
     font-weight: normal;
-    font-style: italic;
+    font-style: bold;
 }
 
 .info {
