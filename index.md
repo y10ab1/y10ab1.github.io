@@ -21,13 +21,15 @@
 
 <!-- ### Research Assistant <time> Jul 2024 – Oct 2024 </time> -->
 ### Research Assistant <time> Mar 2022 – Oct 2024 </time>
-**Institute of Information Science, Academia Sinica | Supervisor: Dr. Li Su** <location>**Taipei, Taiwan**</location>
+**[Institute of Information Science, Academia Sinica](https://www.iis.sinica.edu.tw/zh/index.html) | [MCTLAB](https://sites.google.com/view/mctl/) | Supervisor: Dr. Li Su** <location>**Taipei, Taiwan**</location>
+#### Research Topics: Self‑Supervised Learning, Medical Imaging
 - Surveyed end-to-end self-supervised learning methods for decoding mental states from fMRI data.
 - Conducted distributed training experiments on high-resolution 4D medical images (fMRI) using TWCC HPC.
-- Proposed a whole-brain feature selection method for decoding musical pitch from fMRI [2].
+- Proposed a whole-brain feature selection method for decoding musical pitch from fMRI **<a href="#publication-2">[2]</a>**.
 
 ### AI Engineer Intern <time> Mar 2023 – Jul 2024 </time>
-**Tomofun** <location>**Taipei, Taiwan**</location>
+**[Tomofun](https://furbo.com/tw)** <location>**Taipei, Taiwan**</location>
+#### Research Topics: Computer Vision, Large Language Models, Multimodal Learning
 - Developed an automatic short music video generation system for daily pet clips.
 - Fine-tuned visual language models (e.g., BLIP), achieving a 20.6% improvement in visual question answering.
 - Enhanced LLaVA image inference speed by 250% with only a 3% accuracy reduction.
@@ -50,25 +52,27 @@
 
 ## Research & Projects
 
-### Guitar Effect Removal <time> Collaboration with Positive Grid ML Team </time>
+### Guitar Effect Removal <time> Collaboration with [Positive Grid](https://www.positivegrid.com/) ML Team </time>
 - Proposed a two-stage method to remove distortion effects from guitar recordings using Positive Grid VST plugins.
 - Achieved 20% higher audio quality than the best baseline, rated by 26 professional guitarists.
-- Published in DAFx 2024 [1].
+- Published in DAFx 2024 **<a href="#publication-1">[1]</a>**.
 
 ### Whole Brain fMRI Feature Selection
 - Proposed a two-stage method to extract fMRI features and predict musical pitch.
 - Demonstrated 2-fold improvement over ROI-based feature selection in fMRI-music analysis.
-- Published in ICASSP 2023 [2].
+- Published in ICASSP 2023 **<a href="#publication-2">[2]</a>**.
 
 ---
 
 ## Publications
 
-[1] Lee, Y. S.\*, **Peng, Y. P.\***, Wu, J. T., Cheng, M., Su, L., & Yang, Y. H.
-  "Distortion Recovery: A Two-Stage Method for Guitar Effect Removal," Proc. Int. Conf. Digital Audio Effects 2024 (DAFx’24). (\* equally contributed) [Demo](https://y10ab1.github.io/guitar_effect_removal/)
+**<a id="publication-2">[1]</a>**   Lee, Y. S.\*, **Peng, Y. P.\***, Wu, J. T., Cheng, M., Su, L., & Yang, Y. H.
+  "Distortion Recovery: A Two-Stage Method for Guitar Effect Removal," Proc. Int. Conf. Digital Audio Effects 2024 (DAFx’24). (\* equally contributed)
+  **[Paper](https://arxiv.org/abs/2407.16639) | [Demo](https://y10ab1.github.io/guitar_effect_removal/)**
 
-[2] Cheung, V. K.\*, **Peng, Y. P.\***, Lin, J. H., & Su, L.
-  "Decoding Musical Pitch from Human Brain Activity with Automatic Voxel-Wise Whole-Brain FMRI Feature Selection," Proc. IEEE Int. Conf. on Acoustics, Speech, and Signal Processing 2023 (ICASSP’23). (\* equally contributed) [Paper](https://arxiv.org/abs/2407.16639)
+**<a id="publication-2">[2]</a>**  Cheung, V. K.\*, **Peng, Y. P.\***, Lin, J. H., & Su, L.
+  "Decoding Musical Pitch from Human Brain Activity with Automatic Voxel-Wise Whole-Brain FMRI Feature Selection," Proc. IEEE Int. Conf. on Acoustics, Speech, and Signal Processing 2023 (ICASSP’23). (\* equally contributed) 
+  **[Paper](https://arxiv.org/abs/2407.16639)**
 
 ---
 
