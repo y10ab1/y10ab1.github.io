@@ -1,0 +1,55 @@
+name: Render HTML to PDF
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  render-to-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Node.js for Puppeteer
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      # Step 3: Install Puppeteer
+      - name: Install Puppeteer
+        run: npm install puppeteer
+
+      # Step 4: Render HTML to PDF
+      - name: Render index.html to PDF
+        run: |
+          node -e "
+          const puppeteer = require('puppeteer');
+          (async () => {
+            const browser = await puppeteer.launch();
+            const page = await browser.newPage();
+            await page.goto('file://' + process.cwd() + '/index.html', { waitUntil: 'networkidle2' });
+            await page.pdf({ path: 'CV.pdf', format: 'A4' });
+            await browser.close();
+          })();
+          "
+
+      # Step 5: Upload the generated PDF as an artifact
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: CV
+          path: CV.pdf
+      
+      # Step 6: Commit and push the PDF back to the repository
+      - name: Commit and push CV.pdf
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add CV.pdf
+          git commit -m "Update CV.pdf"
+          git push
