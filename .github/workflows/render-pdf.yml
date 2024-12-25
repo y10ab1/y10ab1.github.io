@@ -1,6 +1,11 @@
 name: Render HTML to PDF
 
 on:
+  workflow_run:
+    workflows:
+      - "Deploy static content to Pages" # The name of the first workflow
+    types:
+      - completed
   push:
     branches:
       - main
