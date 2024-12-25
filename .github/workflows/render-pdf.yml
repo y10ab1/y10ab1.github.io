@@ -29,11 +29,10 @@ jobs:
 
       # Step 2: Convert HTML to PDF using html-to-pdf-action
       - name: HTML to PDF
-        uses: fifsky/html-to-pdf-action@master
+        uses: ferdinandkeller/html-to-pdf-action@v2
         with:
-          htmlFile: index.html # Path to your HTML file
-          outputFile: CV.pdf # Output file path
-          pdfOptions: '{"format": "A4", "margin": {"top": "15mm", "left": "15mm", "right": "15mm", "bottom": "15mm"}}'
+          source-path: "index.html"
+          destination-path: "CV.pdf"
 
 
       # Step 3: Install Puppeteer
