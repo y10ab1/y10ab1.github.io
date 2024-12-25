@@ -31,7 +31,7 @@ jobs:
       - name: HTML to PDF
         uses: ferdinandkeller/html-to-pdf-action@v2
         with:
-          source-path: "index.html"
+          source-path: "."
           destination-path: "CV.pdf"
 
 
