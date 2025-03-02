@@ -66,7 +66,7 @@
 
 ## Publications
 
-**<a id="publication-2">[1]</a>**   Lee, Y. S.\*, **Peng, Y. P.\***, Wu, J. T., Cheng, M., Su, L., & Yang, Y. H.
+**<a id="publication-1">[1]</a>**   Lee, Y. S.\*, **Peng, Y. P.\***, Wu, J. T., Cheng, M., Su, L., & Yang, Y. H.
   "Distortion Recovery: A Two-Stage Method for Guitar Effect Removal," Proc. Int. Conf. Digital Audio Effects 2024 (DAFx’24). (\* equally contributed)
   **[Paper](https://arxiv.org/abs/2407.16639) | [Demo](https://y10ab1.github.io/guitar_effect_removal/)**
 
