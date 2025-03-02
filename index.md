@@ -28,7 +28,7 @@
 - Proposed a whole-brain feature selection method for decoding musical pitch from fMRI **<a href="#publication-2">[2]</a>**.
 
 ### AI Engineer Intern <time> Mar 2023 – Jul 2024 </time>
-**[Tomofun](https://furbo.com/tw) A world-leading pet technology company** <location>**Taipei, Taiwan**</location>
+**[Tomofun](https://furbo.com/tw) - World's leading pet technology company** <location>**Taipei, Taiwan**</location>
 #### Research Topics: Computer Vision, Large Language Models, Multimodal Learning
 - Developed an automatic short music video generation system for daily pet clips.
 - Fine-tuned visual language models (e.g., BLIP), achieving a 20.6% improvement in visual question answering.
