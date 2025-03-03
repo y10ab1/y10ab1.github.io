@@ -67,11 +67,11 @@
 ## Publications
 
 **<a id="publication-1">[1]</a>**   Lee, Y. S.\*, **Peng, Y. P.\***, Wu, J. T., Cheng, M., Su, L., & Yang, Y. H.
-  "Distortion Recovery: A Two-Stage Method for Guitar Effect Removal," Proc. Int. Conf. Digital Audio Effects 2024 (DAFx’24). (\* equally contributed)
+  "Distortion Recovery: A Two-Stage Method for Guitar Effect Removal," Proc. Int. Conf. Digital Audio Effects 2024 (DAFx’24). **(\* equally contributed)**
   **[Paper](https://arxiv.org/abs/2407.16639) | [Demo](https://y10ab1.github.io/guitar_effect_removal/)**
 
 **<a id="publication-2">[2]</a>**  Cheung, V. K.\*, **Peng, Y. P.\***, Lin, J. H., & Su, L.
-  "Decoding Musical Pitch from Human Brain Activity with Automatic Voxel-Wise Whole-Brain FMRI Feature Selection," Proc. IEEE Int. Conf. on Acoustics, Speech, and Signal Processing 2023 (ICASSP’23). (\* equally contributed) 
+  "Decoding Musical Pitch from Human Brain Activity with Automatic Voxel-Wise Whole-Brain FMRI Feature Selection," Proc. IEEE Int. Conf. on Acoustics, Speech, and Signal Processing 2023 (ICASSP’23). **(\* equally contributed)**
   **[Paper](https://arxiv.org/abs/2407.16639)**
 
 ---
