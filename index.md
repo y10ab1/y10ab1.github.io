@@ -17,7 +17,7 @@
 
 ### AI Engineer <time> Oct 2024 – Present </time>
 **Gate.io** <location>**Taipei, Taiwan (Remote)**</location>
-- Developed an anomaly detection system for fund flows, leveraging LLMs and tree-based models for enhanced financial security.
+- Developed a fund flows anomaly detection system with LLMs and tree-based models, enhancing financial security.
 - Built a Text-to-SQL system to streamline internal data queries, improving query efficiency by 20%.
 <!-- - Working on advanced AI-driven research projects in cryptocurrency and financial analytics. -->
 
