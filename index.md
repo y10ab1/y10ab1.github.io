@@ -15,15 +15,16 @@
 
 ## Experience
 
-### AI Engineer <time> Oct 2024 – Present </time>
+### AI Engineer <time> Oct 2024 – Present </time> 
 **Gate.io** <location>**Taipei, Taiwan (Remote)**</location>
 - Developed a fund flows anomaly detection system with LLMs and tree-based models, enhancing financial security.
 - Built a Text-to-SQL system to streamline internal data queries, improving query efficiency by 20%.
 <!-- - Working on advanced AI-driven research projects in cryptocurrency and financial analytics. -->
 
-<!-- ### Research Assistant <time> Jul 2024 – Oct 2024 <br> Mar 2022 – Feb 2023 </time> -->
+<!-- ### Research Assistant <time> Jul 2024 – Oct 2024 <br> Mar 2022 – Feb 2023 </time>  -->
 ### Research Assistant <time> Mar 2022 – Oct 2024 </time>
-**[Institute of Information Science, Academia Sinica](https://www.iis.sinica.edu.tw/zh/index.html) | [MCTLAB](https://sites.google.com/view/mctl/) | Supervisor: Dr. Li Su** <location>**Taipei, Taiwan**</location>
+**[Institute of Information Science, Academia Sinica](https://www.iis.sinica.edu.tw/zh/index.html) | [MCTLAB](https://sites.google.com/view/mctl/) | Supervisor: Dr. Li Su** 
+<location>**Taipei, Taiwan**</location>
 #### Research Topics: Self‑Supervised Learning, Medical Imaging
 - Proposed a Transformer-based self-supervised learning method for decoding brain signals (fMRI), achieving an 77% reduction in memory footprint.
 - Conducted distributed training experiments on high-resolution 4D medical images (fMRI) using TWCC HPC.
