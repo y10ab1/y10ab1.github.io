@@ -81,4 +81,4 @@
 ## Skills
 
 - **Languages/Frameworks**: Python, PyTorch, TensorFlow, Pandas, Scikit-learn, Slurm, Go, HTML, JavaScript, C++, C, Linux.
-- **Skillset**: Machine Learning, Self-Supervised Learning, Medical Imaging, Ｃomputer Vision, Music Information Research, Distributed Training.
+- **Skillset**: Self-Supervised Learning, Medical Imaging, Computer Vision, Music Information Research, Distributed Training.
