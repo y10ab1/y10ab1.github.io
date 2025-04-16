@@ -17,7 +17,7 @@
 
 ### AI Engineer <time> Oct 2024 – Present </time> 
 **Gate.io** <location>**Taipei, Taiwan (Remote)**</location>
-- Developed a Text-to-SQL AI agent enabling non-technical teams to query internal databases, improving operational efficiency by 20%.
+- Developed a Text-to-SQL AI agent enabling non-technical teams to access internal data, boosting query efficiency by 20%.
 - Developed a fund flows anomaly detection system with LLMs and tree-based models, enhancing financial security.
 <!-- - Working on advanced AI-driven research projects in cryptocurrency and financial analytics. -->
 
