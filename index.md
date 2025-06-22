@@ -15,7 +15,11 @@
 
 ## Experience
 
-### AI Engineer <time> Oct 2024 – Present </time> 
+### Visiting Researcher <time> Jun 2025 – Present </time> 
+**Sony Computer Science Laboratories (Sony CSL)**
+<location>**Tokyo, Japan**</location>
+
+### AI Engineer <time> Oct 2024 – May 2025 </time> 
 **Gate.io** <location>**Taipei, Taiwan (Remote)**</location>
 - Developed a Text-to-SQL AI agent enabling non-technical teams to access internal data, boosting query efficiency by 20%.
 - Developed a fund flows anomaly detection system with LLMs and tree-based models, enhancing financial security.
