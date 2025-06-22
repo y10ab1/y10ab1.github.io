@@ -16,7 +16,8 @@
 ## Experience
 
 ### Visiting Researcher <time> Jun 2025 – Present </time> 
-**Sony Computer Science Laboratories (Sony CSL)**<location>**Tokyo, Japan (Hybrid)**</location>
+**[Sony Computer Science Laboratories (Sony CSL)](https://www.csl.sony.co.jp/en/)**
+<location>**Tokyo, Japan (Hybrid)**</location>
 
 ### AI Engineer <time> Oct 2024 – May 2025 </time> 
 **Gate.io** <location>**Taipei, Taiwan (Remote)**</location>
