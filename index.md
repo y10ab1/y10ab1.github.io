@@ -15,6 +15,10 @@
 
 ## Experience
 
+### Senior Machine Learning Engineer <time> Jul 2025 – Present </time>
+**[Gamania Digital Entertainment](https://www.gamania.com)**
+<location>**Taipei, Taiwan**</location>
+
 ### Visiting Researcher <time> Jun 2025 – Present </time> 
 **[Sony Computer Science Laboratories (Sony CSL)](https://www.csl.sony.co.jp/en/)**
 <location>**Tokyo, Japan (Hybrid)**</location>
