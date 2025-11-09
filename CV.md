@@ -1,17 +1,16 @@
-<link rel="stylesheet" type="text/css" href="resume.css">
-
-<!-- <span class="name">Yueh-Po Peng</span> -->
+---
+layout: default
+title: Yueh-Po Peng - CV
+---
 
 # Yueh-Po Peng
 
-<span class="info">
-
-<a href="mailto:yuehpo.peng@gmail.com"><img src="assets/mail-svgrepo-com.svg" alt="Mail" width="16" height="16" style="vertical-align: middle;"></a> |
-<a href="https://github.com/y10ab1"><img src="assets/github-142-svgrepo-com.svg" alt="GitHub" width="16" height="16" style="vertical-align: middle;"></a> |
-<a href="https://linkedin.com/in/yueh-po-peng"><img src="assets/linkedin-svgrepo-com.svg" alt="LinkedIn" width="16" height="16" style="vertical-align: middle;"></a> |
-<a href="https://scholar.google.com/citations?user=uFf4DmoAAAAJ"><img src="assets/googlescholar-svgrepo-com.svg" alt="Google Scholar" width="16" height="16" style="vertical-align: middle;"></a>
-
-</span>
+<div style="text-align: center;">
+<a href="mailto:yuehpo.peng@gmail.com"><img src="assets/mail-svgrepo-com.svg" alt="Mail" width="16" height="16" style="vertical-align: text-bottom;"></a> |
+<a href="https://github.com/y10ab1"><img src="assets/github-142-svgrepo-com.svg" alt="GitHub" width="16" height="16" style="vertical-align: text-bottom;"></a> |
+<a href="https://linkedin.com/in/yueh-po-peng"><img src="assets/linkedin-svgrepo-com.svg" alt="LinkedIn" width="16" height="16" style="vertical-align: text-bottom;"></a> |
+<a href="https://scholar.google.com/citations?user=uFf4DmoAAAAJ"><img src="assets/googlescholar-svgrepo-com.svg" alt="Google Scholar" width="16" height="16" style="vertical-align: text-bottom;"></a>
+</div>
 
 ## Experience
 
