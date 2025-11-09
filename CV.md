@@ -44,7 +44,7 @@
 - Enhanced LLaVA image inference speed by 250% with only a 3% accuracy reduction.
 - Developed APIs for visual language models using llama.cpp/ollama for image-caption pair datasets.
 
----
+<hr style="border: none; border-top: 1px solid #e0e0e0; margin: 20px 0;">
 
 ## Education
 
@@ -57,7 +57,7 @@
 <location>**Taipei, Taiwan**</location>
 - B.S. in Computer Science and Information Engineering (CSIE)
 
----
+<hr style="border: none; border-top: 1px solid #e0e0e0; margin: 20px 0;">
 
 ## Research & Projects
 
@@ -71,7 +71,7 @@
 - Demonstrated 2-fold improvement over ROI-based feature selection in fMRI-music analysis.
 - Published in ICASSP 2023 **<a href="#publication-2">[2]</a>**.
 
----
+<hr style="border: none; border-top: 1px solid #e0e0e0; margin: 20px 0;">
 
 ## Publications
 
