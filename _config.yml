@@ -1,5 +1,5 @@
 # Jekyll 配置
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 title: Yueh-Po Peng
 description: Machine Learning Engineer Portfolio
 
@@ -8,10 +8,21 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  auto_ids: true
 
 # 排除不需要處理的文件
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - README/
+
+# 插件
+plugins:
+  - jekyll-relative-links
+
+# 相對連結設定
+relative_links:
+  enabled: true
+  collections: true
 
