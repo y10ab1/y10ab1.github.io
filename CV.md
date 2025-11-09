@@ -31,7 +31,7 @@
 ### Research Assistant <time> Mar 2022 – Oct 2024 </time>
 **[Institute of Information Science, Academia Sinica](https://www.iis.sinica.edu.tw/zh/index.html) | [MCTLAB](https://sites.google.com/view/mctl/) | Supervisor: Dr. Li Su** 
 <location>**Taipei, Taiwan**</location>
-#### Research Topics: Self‑Supervised Learning, Medical Imaging
+#### Research Topics: Self-Supervised Learning, Medical Imaging
 - Proposed a Transformer-based self-supervised learning method for decoding brain signals (fMRI), achieving an 77% reduction in memory footprint.
 - Conducted distributed training experiments on high-resolution 4D medical images (fMRI) using TWCC HPC.
 - Proposed a whole-brain feature selection method for decoding musical pitch from fMRI **<a href="#publication-2">[2]</a>**.
@@ -51,7 +51,7 @@
 ### National Taiwan University <time> Feb 2023 – Jun 2024 </time>
 <location>**Taipei, Taiwan**</location>
 - M.S. in Data Science
-- Thesis topic: Whole‑Brain Feature Selection Methods for Decoding from fMRI Data
+- Thesis topic: Whole-Brain Feature Selection Methods for Decoding from fMRI Data
 
 ### National Taiwan University <time> Sep 2019 – Jan 2022 </time>
 <location>**Taipei, Taiwan**</location>
