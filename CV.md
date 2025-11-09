@@ -83,7 +83,7 @@
   "Decoding Musical Pitch from Human Brain Activity with Automatic Voxel-Wise Whole-Brain FMRI Feature Selection," Proc. IEEE Int. Conf. on Acoustics, Speech, and Signal Processing 2023 (ICASSP’23). **(\* equally contributed)**
   **[Paper](https://arxiv.org/abs/2407.16639)**
 
----
+<hr style="border: none; border-top: 1px solid #e0e0e0; margin: 20px 0;">
 
 ## Skills
 
