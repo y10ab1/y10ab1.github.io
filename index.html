@@ -1,228 +1,628 @@
 <!DOCTYPE html>
-        <html>
+<html lang="en">
+
         <head>
             <meta charset="UTF-8">
-            <title>Yueh-Po Peng</title>
-            <style>
-/* From extension vscode.github */
-/*---------------------------------------------------------------------------------------------
- *  Copyright (c) Microsoft Corporation. All rights reserved.
- *  Licensed under the MIT License. See License.txt in the project root for license information.
- *--------------------------------------------------------------------------------------------*/
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yueh-Po Peng - Portfolio</title>
 
-.vscode-dark img[src$=\#gh-light-mode-only],
-.vscode-light img[src$=\#gh-dark-mode-only],
-.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
-.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
-	display: none;
-}
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-</style>
-            
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
-<style>
-            body {
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
-                font-size: 14px;
-                line-height: 1.6;
-            }
-        </style>
-        <style>
-.task-list-item {
-    list-style-type: none;
-}
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-.task-list-item-checkbox {
-    margin-left: -20px;
-    vertical-align: middle;
-    pointer-events: none;
-}
-</style>
-<style>
-:root {
-  --color-note: #0969da;
-  --color-tip: #1a7f37;
-  --color-warning: #9a6700;
-  --color-severe: #bc4c00;
-  --color-caution: #d1242f;
-  --color-important: #8250df;
-}
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
 
-</style>
-<style>
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-note: #2f81f7;
-    --color-tip: #3fb950;
-    --color-warning: #d29922;
-    --color-severe: #db6d28;
-    --color-caution: #f85149;
-    --color-important: #a371f7;
-  }
-}
+<body>
 
-</style>
-<style>
-.markdown-alert {
-  padding: 0.5rem 1rem;
-  margin-bottom: 16px;
-  color: inherit;
-  border-left: .25em solid #888;
-}
+  <!--
+    - #MAIN
+  -->
 
-.markdown-alert>:first-child {
-  margin-top: 0
-}
+  <main>
 
-.markdown-alert>:last-child {
-  margin-bottom: 0
-}
+    <!--
+      - #SIDEBAR
+    -->
 
-.markdown-alert .markdown-alert-title {
-  display: flex;
-  font-weight: 500;
-  align-items: center;
-  line-height: 1
-}
+    <aside class="sidebar" data-sidebar>
 
-.markdown-alert .markdown-alert-title .octicon {
-  margin-right: 0.5rem;
-  display: inline-block;
-  overflow: visible !important;
-  vertical-align: text-bottom;
-  fill: currentColor;
-}
+      <div class="sidebar-info">
 
-.markdown-alert.markdown-alert-note {
-  border-left-color: var(--color-note);
-}
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Yueh-Po Peng" width="80">
+        </figure>
 
-.markdown-alert.markdown-alert-note .markdown-alert-title {
-  color: var(--color-note);
-}
+        <div class="info-content">
+          <h1 class="name" title="Yueh-Po Peng">Yueh-Po Peng</h1>
 
-.markdown-alert.markdown-alert-important {
-  border-left-color: var(--color-important);
-}
+          <p class="title">Machine Learning Engineer</p>
+        </div>
 
-.markdown-alert.markdown-alert-important .markdown-alert-title {
-  color: var(--color-important);
-}
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-.markdown-alert.markdown-alert-warning {
-  border-left-color: var(--color-warning);
-}
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
 
-.markdown-alert.markdown-alert-warning .markdown-alert-title {
-  color: var(--color-warning);
-}
+      </div>
 
-.markdown-alert.markdown-alert-tip {
-  border-left-color: var(--color-tip);
-}
+      <div class="sidebar-info_more">
 
-.markdown-alert.markdown-alert-tip .markdown-alert-title {
-  color: var(--color-tip);
-}
+        <div class="separator"></div>
 
-.markdown-alert.markdown-alert-caution {
-  border-left-color: var(--color-caution);
-}
+        <ul class="contacts-list">
 
-.markdown-alert.markdown-alert-caution .markdown-alert-title {
-  color: var(--color-caution);
-}
+          <li class="contact-item">
 
-</style>
-        
-        </head>
-        <body class="vscode-body vscode-light">
-            <link rel="stylesheet" type="text/css" href="resume.css">
-<!-- <span class="name">Yueh-Po Peng</span> -->
-<h1 id="yueh-po-peng">Yueh-Po Peng</h1>
-<span class="info">
-<p><a href="mailto:yuehpo.peng@gmail.com"><img src="assets/mail-svgrepo-com.svg" alt="Mail"></a> |
-<a href="https://github.com/y10ab1"><img src="assets/github-142-svgrepo-com.svg" alt="GitHub"></a> |
-<a href="https://linkedin.com/in/yueh-po-peng"><img src="assets/linkedin-svgrepo-com.svg" alt="LinkedIn"></a> |
-<a href="https://scholar.google.com/citations?user=uFf4DmoAAAAJ"><img src="assets/googlescholar-svgrepo-com.svg" alt="Google Scholar"></a></p>
-</span>
-<h2 id="experience">Experience</h2>
-<h3 id="senior-machine-learning-engineer--jul-2025--present-">Senior Machine Learning Engineer <time> Jul 2025 – Present </time></h3>
-<p><strong><a href="https://www.gamania.com">Gamania Digital Entertainment</a></strong>
-<location><strong>Taipei, Taiwan</strong></location></p>
-<h3 id="visiting-researcher--jun-2025--present-">Visiting Researcher <time> Jun 2025 – Present </time></h3>
-<p><strong><a href="https://www.csl.sony.co.jp/en/">Sony Computer Science Laboratories (Sony CSL)</a></strong>
-<location><strong>Tokyo, Japan (Hybrid)</strong></location></p>
-<h3 id="ai-engineer--oct-2024--may-2025-">AI Engineer <time> Oct 2024 – May 2025 </time></h3>
-<p><strong><a href="http://Gate.io">Gate.io</a></strong> <location><strong>Taipei, Taiwan (Remote)</strong></location></p>
-<ul>
-<li>Developed a Text-to-SQL AI agent enabling non-technical teams to access internal data, boosting query efficiency by 20%.</li>
-<li>Developed a fund flows anomaly detection system with LLMs and tree-based models, enhancing financial security.</li>
-</ul>
-<!-- - Working on advanced AI-driven research projects in cryptocurrency and financial analytics. -->
-<!-- ### Research Assistant <time> Jul 2024 – Oct 2024 <br> Mar 2022 – Feb 2023 </time>  -->
-<h3 id="research-assistant--mar-2022--oct-2024-">Research Assistant <time> Mar 2022 – Oct 2024 </time></h3>
-<p><strong><a href="https://www.iis.sinica.edu.tw/zh/index.html">Institute of Information Science, Academia Sinica</a> | <a href="https://sites.google.com/view/mctl/">MCTLAB</a> | Supervisor: Dr. Li Su</strong>
-<location><strong>Taipei, Taiwan</strong></location></p>
-<h4 id="research-topics-selfsupervised-learning-medical-imaging">Research Topics: Self‑Supervised Learning, Medical Imaging</h4>
-<ul>
-<li>Proposed a Transformer-based self-supervised learning method for decoding brain signals (fMRI), achieving an 77% reduction in memory footprint.</li>
-<li>Conducted distributed training experiments on high-resolution 4D medical images (fMRI) using TWCC HPC.</li>
-<li>Proposed a whole-brain feature selection method for decoding musical pitch from fMRI <strong><a href="#publication-2">[2]</a></strong>.</li>
-</ul>
-<h3 id="ai-engineer-intern--mar-2023--jul-2024-">AI Engineer Intern <time> Mar 2023 – Jul 2024 </time></h3>
-<p><strong><a href="https://furbo.com/tw">Tomofun</a> - World's leading pet technology company</strong> <location><strong>Taipei, Taiwan</strong></location></p>
-<h4 id="research-topics-computer-vision-large-language-models-multimodal-learning">Research Topics: Computer Vision, Large Language Models, Multimodal Learning</h4>
-<ul>
-<li>Developed an automatic short music video generation system for daily pet clips.</li>
-<li>Fine-tuned visual language models (e.g., BLIP), achieving a 20.6% improvement in visual question answering.</li>
-<li>Enhanced LLaVA image inference speed by 250% with only a 3% accuracy reduction.</li>
-<li>Developed APIs for visual language models using llama.cpp/ollama for image-caption pair datasets.</li>
-</ul>
-<hr>
-<h2 id="education">Education</h2>
-<h3 id="national-taiwan-university--feb-2023--jun-2024-">National Taiwan University <time> Feb 2023 – Jun 2024 </time></h3>
-<p><location><strong>Taipei, Taiwan</strong></location></p>
-<ul>
-<li>M.S. in Data Science</li>
-<li>Thesis topic: Whole‑Brain Feature Selection Methods for Decoding from fMRI Data</li>
-</ul>
-<h3 id="national-taiwan-university--sep-2019--jan-2022-">National Taiwan University <time> Sep 2019 – Jan 2022 </time></h3>
-<p><location><strong>Taipei, Taiwan</strong></location></p>
-<ul>
-<li>B.S. in Computer Science and Information Engineering (CSIE)</li>
-</ul>
-<hr>
-<h2 id="research--projects">Research &amp; Projects</h2>
-<h3 id="guitar-effect-removal--collaboration-with-positive-grid-ml-team-">Guitar Effect Removal <time> Collaboration with <a href="https://www.positivegrid.com/">Positive Grid</a> ML Team </time></h3>
-<ul>
-<li>Proposed a two-stage method to remove distortion effects from guitar recordings using Positive Grid VST plugins.</li>
-<li>Achieved 20% higher audio quality than the best baseline, rated by 26 professional guitarists.</li>
-<li>Published in DAFx 2024 <strong><a href="#publication-1">[1]</a></strong>.</li>
-</ul>
-<h3 id="whole-brain-fmri-feature-selection">Whole Brain fMRI Feature Selection</h3>
-<ul>
-<li>Proposed a two-stage method to extract fMRI features and predict musical pitch.</li>
-<li>Demonstrated 2-fold improvement over ROI-based feature selection in fMRI-music analysis.</li>
-<li>Published in ICASSP 2023 <strong><a href="#publication-2">[2]</a></strong>.</li>
-</ul>
-<hr>
-<h2 id="publications">Publications</h2>
-<p><strong><a id="publication-1">[1]</a></strong>   Lee, Y. S.*, <strong>Peng, Y. P.*</strong>, Wu, J. T., Cheng, M., Su, L., &amp; Yang, Y. H.
-&quot;Distortion Recovery: A Two-Stage Method for Guitar Effect Removal,&quot; Proc. Int. Conf. Digital Audio Effects 2024 (DAFx’24). <strong>(* equally contributed)</strong>
-<strong><a href="https://arxiv.org/abs/2407.16639">Paper</a> | <a href="https://y10ab1.github.io/guitar_effect_removal/">Demo</a></strong></p>
-<p><strong><a id="publication-2">[2]</a></strong>  Cheung, V. K.*, <strong>Peng, Y. P.*</strong>, Lin, J. H., &amp; Su, L.
-&quot;Decoding Musical Pitch from Human Brain Activity with Automatic Voxel-Wise Whole-Brain FMRI Feature Selection,&quot; Proc. IEEE Int. Conf. on Acoustics, Speech, and Signal Processing 2023 (ICASSP’23). <strong>(* equally contributed)</strong>
-<strong><a href="https://arxiv.org/abs/2407.16639">Paper</a></strong></p>
-<hr>
-<h2 id="skills">Skills</h2>
-<ul>
-<li><strong>Languages/Frameworks</strong>: Python, PyTorch, TensorFlow, Pandas, Scikit-learn, Slurm, Go, HTML, JavaScript, C++, C, Linux.</li>
-<li><strong>Skillset</strong>: Self-Supervised Learning, Medical Imaging, Computer Vision, Music Information Research, Distributed Training.</li>
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:yuehpo.peng@gmail.com" class="contact-link">yuehpo.peng@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Taipei, Taiwan</address>
+            </div>
+
+          </li>
+
 </ul>
 
-            
-            
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/y10ab1" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://linkedin.com/in/yueh-po-peng" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://scholar.google.com/citations?user=uFf4DmoAAAAJ" class="social-link" target="_blank">
+              <ion-icon name="school-outline"></ion-icon>
+            </a>
+          </li>
+
+</ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a Senior Machine Learning Engineer at Gamania Digital Entertainment. Previously, I was a Visiting Researcher at Sony Computer Science Laboratories.
+            I specialize in developing AI-driven solutions across various domains including computer vision, natural language processing, and medical imaging.
+          </p>
+
+          <p>
+            With a Master's degree in Data Science from National Taiwan University, I have published research in top-tier conferences such as DAFx and ICASSP. 
+            My work focuses on applying machine learning to solve real-world problems, from audio processing and medical image analysis to financial anomaly detection.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I do</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="cube-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning & Deep Learning</h4>
+
+                <p class="service-item-text">
+                  Developing advanced AI models for computer vision, NLP, and audio processing applications.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="medkit-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Medical Imaging & fMRI Analysis</h4>
+
+                <p class="service-item-text">
+                  Applying self-supervised learning techniques to decode brain signals and analyze medical images.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="musical-notes-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Audio Processing & MIR</h4>
+
+                <p class="service-item-text">
+                  Music information retrieval and audio effect processing using deep learning methods.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="analytics-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science & Analytics</h4>
+
+                <p class="service-item-text">
+                  Building data-driven solutions including Text-to-SQL agents and anomaly detection systems.
+                </p>
+              </div>
+
+            </li>
+
+</ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">National Taiwan University</h4>
+
+              <span>Feb 2023 — Jun 2024</span>
+
+              <p class="timeline-text">
+                M.S. in Data Science<br>
+                Thesis: Whole‑Brain Feature Selection Methods for Decoding from fMRI Data
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">National Taiwan University</h4>
+
+              <span>Sep 2019 — Jan 2022</span>
+
+              <p class="timeline-text">
+                B.S. in Computer Science and Information Engineering (CSIE)
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Senior Machine Learning Engineer @ Gamania Digital Entertainment</h4>
+
+              <span>Jul 2025 — Present</span>
+
+              <p class="timeline-text">
+                Working on advanced machine learning projects in the gaming and entertainment industry.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Visiting Researcher @ Sony Computer Science Laboratories</h4>
+
+              <span>Jun 2025 — Oct 2025</span>
+
+              <p class="timeline-text">
+                Conducted cutting-edge research in AI and machine learning at Sony CSL, Tokyo (Hybrid).
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AI Engineer @ Gate.io</h4>
+
+              <span>Oct 2024 — May 2025</span>
+
+              <p class="timeline-text">
+                • Developed a Text-to-SQL AI agent enabling non-technical teams to access internal data, boosting query efficiency by 20%.<br>
+                • Developed a fund flows anomaly detection system with LLMs and tree-based models, enhancing financial security.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Assistant @ Academia Sinica (MCTLAB)</h4>
+
+              <span>Mar 2022 — Oct 2024</span>
+
+              <p class="timeline-text">
+                <strong>Research Topics:</strong> Self‑Supervised Learning, Medical Imaging<br>
+                • Proposed a Transformer-based self-supervised learning method for decoding brain signals (fMRI), achieving a 77% reduction in memory footprint.<br>
+                • Conducted distributed training experiments on high-resolution 4D medical images (fMRI) using TWCC HPC.<br>
+                • Proposed a whole-brain feature selection method for decoding musical pitch from fMRI.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AI Engineer Intern @ Tomofun</h4>
+
+              <span>Mar 2023 — Jul 2024</span>
+
+              <p class="timeline-text">
+                <strong>Research Topics:</strong> Computer Vision, Large Language Models, Multimodal Learning<br>
+                • Developed an automatic short music video generation system for daily pet clips.<br>
+                • Fine-tuned visual language models (e.g., BLIP), achieving a 20.6% improvement in visual question answering.<br>
+                • Enhanced LLaVA image inference speed by 250% with only a 3% accuracy reduction.<br>
+                • Developed APIs for visual language models using llama.cpp/ollama for image-caption pair datasets.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python & Deep Learning</h5>
+              </div>
+
+              <p class="timeline-text" style="margin-top: 8px;">
+                PyTorch, TensorFlow, Scikit-learn
+              </p>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+              </div>
+
+              <p class="timeline-text" style="margin-top: 8px;">
+                Self-Supervised Learning, Computer Vision, NLP, Medical Imaging
+              </p>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Engineering</h5>
+              </div>
+
+              <p class="timeline-text" style="margin-top: 8px;">
+                Pandas, SQL, Distributed Training (Slurm), HPC
+              </p>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming Languages</h5>
+              </div>
+
+              <p class="timeline-text" style="margin-top: 8px;">
+                Go, JavaScript, HTML, C++, C, Linux
+              </p>
+
+            </li>
+
+</ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PROJECTS
+      -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="flask-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Research & Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Guitar Effect Removal</h4>
+
+              <span>Collaboration with Positive Grid ML Team</span>
+
+              <p class="timeline-text">
+                Proposed a two-stage method to remove distortion effects from guitar recordings using Positive Grid VST plugins. 
+                Achieved 20% higher audio quality than the best baseline, rated by 26 professional guitarists. 
+                Published in DAFx 2024.
+              </p>
+
+              <p class="timeline-text" style="margin-top: 10px;">
+                <a href="https://arxiv.org/abs/2407.16639" target="_blank" style="color: var(--orange-yellow-crayola); margin-right: 15px;">📄 Paper</a>
+                <a href="https://y10ab1.github.io/guitar_effect_removal/" target="_blank" style="color: var(--orange-yellow-crayola);">🎵 Demo</a>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Whole Brain fMRI Feature Selection</h4>
+
+              <span>Academia Sinica - MCTLAB</span>
+
+              <p class="timeline-text">
+                Proposed a two-stage method to extract fMRI features and predict musical pitch. 
+                Demonstrated 2-fold improvement over ROI-based feature selection in fMRI-music analysis. 
+                Published in ICASSP 2023.
+              </p>
+
+              <p class="timeline-text" style="margin-top: 10px;">
+                <a href="https://arxiv.org/abs/2407.16639" target="_blank" style="color: var(--orange-yellow-crayola);">📄 Paper</a>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PUBLICATIONS
+      -->
+
+      <article class="publications" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="document-text-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Publications</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Distortion Recovery: A Two-Stage Method for Guitar Effect Removal</h4>
+
+              <span>DAFx 2024</span>
+
+              <p class="timeline-text">
+                <strong>Lee, Y. S.*, Peng, Y. P.*, Wu, J. T., Cheng, M., Su, L., & Yang, Y. H.</strong><br>
+                Proc. Int. Conf. Digital Audio Effects 2024 (DAFx'24). (* equally contributed)
+              </p>
+
+              <p class="timeline-text" style="margin-top: 10px;">
+                <a href="https://arxiv.org/abs/2407.16639" target="_blank" style="color: var(--orange-yellow-crayola); margin-right: 15px;">📄 Paper</a>
+                <a href="https://y10ab1.github.io/guitar_effect_removal/" target="_blank" style="color: var(--orange-yellow-crayola);">🎵 Demo</a>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Decoding Musical Pitch from Human Brain Activity with Automatic Voxel-Wise Whole-Brain FMRI Feature Selection</h4>
+
+              <span>ICASSP 2023</span>
+
+              <p class="timeline-text">
+                <strong>Cheung, V. K.*, Peng, Y. P.*, Lin, J. H., & Su, L.</strong><br>
+                Proc. IEEE Int. Conf. on Acoustics, Speech, and Signal Processing 2023 (ICASSP'23). (* equally contributed)
+              </p>
+
+              <p class="timeline-text" style="margin-top: 10px;">
+                <a href="https://arxiv.org/abs/2407.16639" target="_blank" style="color: var(--orange-yellow-crayola);">📄 Paper</a>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
         </body>
+
         </html>
