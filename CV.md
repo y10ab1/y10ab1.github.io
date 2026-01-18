@@ -34,7 +34,7 @@
 #### Research Topics: Self-Supervised Learning, Medical Imaging
 - Proposed a Transformer-based self-supervised learning method for decoding brain signals (fMRI), achieving an 77% reduction in memory footprint.
 - Conducted distributed training experiments on high-resolution 4D medical images (fMRI) using TWCC HPC.
-- Proposed a whole-brain feature selection method for decoding musical pitch from fMRI **<a href="#publication-2">[2]</a>**.
+- Proposed a whole-brain feature selection method for decoding musical pitch from fMRI **<a href="#publication-5">[5]</a>**.
 
 ### AI Engineer Intern <time> Mar 2023 – Jul 2024 </time>
 **[Tomofun](https://furbo.com/tw) - World's leading pet technology company** <location>**Taipei, Taiwan**</location>
@@ -64,23 +64,35 @@
 ### Guitar Effect Removal <time> Collaboration with [Positive Grid](https://www.positivegrid.com/) ML Team </time>
 - Proposed a two-stage method to remove distortion effects from guitar recordings using Positive Grid VST plugins.
 - Achieved 20% higher audio quality than the best baseline, rated by 26 professional guitarists.
-- Published in DAFx 2024 **<a href="#publication-1">[1]</a>**.
+- Published in DAFx 2024 **<a href="#publication-4">[4]</a>**.
 
 ### Whole Brain fMRI Feature Selection
 - Proposed a two-stage method to extract fMRI features and predict musical pitch.
 - Demonstrated 2-fold improvement over ROI-based feature selection in fMRI-music analysis.
-- Published in ICASSP 2023 **<a href="#publication-2">[2]</a>**.
+- Published in ICASSP 2023 **<a href="#publication-5">[5]</a>**.
 
 <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 20px 0;">
 
 ## Publications
 
-**<a id="publication-1">[1]</a>**   Lee, Y. S.\*, **Peng, Y. P.\***, Wu, J. T., Cheng, M., Su, L., & Yang, Y. H.
-  "Distortion Recovery: A Two-Stage Method for Guitar Effect Removal," Proc. Int. Conf. Digital Audio Effects 2024 (DAFx’24). **(\* equally contributed)**
+**<a id="publication-1">[1]</a>** Wang, T. K., **Peng, Y. P.**, Su, L., & Cheung, V. K. M.
+  "VioPTT: Violin Technique-Aware Transcription from Synthetic Data Augmentation," Proc. IEEE Int. Conf. on Acoustics, Speech, and Signal Processing 2026 (ICASSP'26).
+  **[Paper](https://arxiv.org/abs/2509.23759)**
+
+**<a id="publication-2">[2]</a>** **Peng, Y. P.**, Wang, T. K., Su, L., & Cheung, V. K. M.
+  "Is Transfer Learning Necessary for Violin Transcription?," Int. Society for Music Information Retrieval Conf. 2025 (ISMIR'25) - Late Breaking/Demo.
+  **[Paper](https://arxiv.org/abs/2508.13516)**
+
+**<a id="publication-3">[3]</a>** **Peng, Y. P.**, Cheung, V. K. M., & Su, L.
+  "Whole-Brain Transferable Representations from Large-Scale fMRI Data Improve Task-Evoked Brain Activity Decoding," arXiv preprint arXiv:2507.22378, 2025.
+  **[Paper](https://arxiv.org/abs/2507.22378)**
+
+**<a id="publication-4">[4]</a>** Lee, Y. S.\*, **Peng, Y. P.\***, Wu, J. T., Cheng, M., Su, L., & Yang, Y. H.
+  "Distortion Recovery: A Two-Stage Method for Guitar Effect Removal," Proc. Int. Conf. Digital Audio Effects 2024 (DAFx'24). **(\* equally contributed)**
   **[Paper](https://arxiv.org/abs/2407.16639) | [Demo](https://y10ab1.github.io/guitar_effect_removal/)**
 
-**<a id="publication-2">[2]</a>**  Cheung, V. K.\*, **Peng, Y. P.\***, Lin, J. H., & Su, L.
-  "Decoding Musical Pitch from Human Brain Activity with Automatic Voxel-Wise Whole-Brain FMRI Feature Selection," Proc. IEEE Int. Conf. on Acoustics, Speech, and Signal Processing 2023 (ICASSP’23). **(\* equally contributed)**
+**<a id="publication-5">[5]</a>** Cheung, V. K.\*, **Peng, Y. P.\***, Lin, J. H., & Su, L.
+  "Decoding Musical Pitch from Human Brain Activity with Automatic Voxel-Wise Whole-Brain FMRI Feature Selection," Proc. IEEE Int. Conf. on Acoustics, Speech, and Signal Processing 2023 (ICASSP'23). **(\* equally contributed)**
   **[Paper](https://arxiv.org/abs/2407.16639)**
 
 <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 20px 0;">
