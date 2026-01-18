@@ -75,12 +75,12 @@
 
 ## Publications
 
-**<a id="publication-1">[1]</a>** Wang, T. K., **Peng, Y. P.**, Su, L., & Cheung, V. K. M.
-  "VioPTT: Violin Technique-Aware Transcription from Synthetic Data Augmentation," Proc. IEEE Int. Conf. on Acoustics, Speech, and Signal Processing 2026 (ICASSP'26).
+**<a id="publication-1">[1]</a>** Wang, T. K.\*, **Peng, Y. P.\***, Su, L., & Cheung, V. K. M.
+  "VioPTT: Violin Technique-Aware Transcription from Synthetic Data Augmentation," Proc. IEEE Int. Conf. on Acoustics, Speech, and Signal Processing 2026 (ICASSP'26). **(\* equally contributed)**
   **[Paper](https://arxiv.org/abs/2509.23759)**
 
-**<a id="publication-2">[2]</a>** **Peng, Y. P.**, Wang, T. K., Su, L., & Cheung, V. K. M.
-  "Is Transfer Learning Necessary for Violin Transcription?," Int. Society for Music Information Retrieval Conf. 2025 (ISMIR'25) - Late Breaking/Demo.
+**<a id="publication-2">[2]</a>** **Peng, Y. P.\***, Wang, T. K.\*, Su, L., & Cheung, V. K. M.
+  "Is Transfer Learning Necessary for Violin Transcription?," Int. Society for Music Information Retrieval Conf. 2025 (ISMIR'25) - Late Breaking/Demo. **(\* equally contributed)**
   **[Paper](https://arxiv.org/abs/2508.13516)**
 
 **<a id="publication-3">[3]</a>** **Peng, Y. P.**, Cheung, V. K. M., & Su, L.
