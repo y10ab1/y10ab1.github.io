@@ -852,6 +852,34 @@ main {
 
 .timeline-item { overflow: visible; display: flow-root; }
 
+.timeline-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.timeline-tags a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--jet);
+  background: var(--border-gradient-onyx);
+  color: var(--light-gray);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  transition: var(--transition-1);
+  text-decoration: none;
+}
+
+.timeline-tags a:hover {
+  background: var(--orange-yellow-crayola);
+  color: var(--smoky-black);
+  border-color: var(--orange-yellow-crayola);
+}
+
 
 /**
  * skills 
