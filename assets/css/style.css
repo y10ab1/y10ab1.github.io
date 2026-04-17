@@ -830,11 +830,13 @@ main {
 }
 
 .timeline-item-banner {
-  width: 100%;
-  max-height: 180px;
-  border-radius: 10px;
+  float: right;
+  width: 200px;
+  max-height: 120px;
+  border-radius: 8px;
   overflow: hidden;
-  margin-bottom: 12px;
+  margin: 0 0 10px 15px;
+  box-shadow: 0 4px 12px hsla(0, 0%, 0%, 0.3);
 }
 
 .timeline-item-banner img {
@@ -847,6 +849,8 @@ main {
 .timeline-item-banner:hover img {
   transform: scale(1.05);
 }
+
+.timeline-item { overflow: visible; display: flow-root; }
 
 
 /**
