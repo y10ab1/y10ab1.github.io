@@ -830,12 +830,11 @@ main {
 }
 
 .timeline-item-banner {
-  float: right;
-  width: 200px;
-  max-height: 120px;
+  width: 100%;
+  max-height: 160px;
   border-radius: 8px;
   overflow: hidden;
-  margin: 0 0 10px 15px;
+  margin-bottom: 12px;
   box-shadow: 0 4px 12px hsla(0, 0%, 0%, 0.3);
 }
 
@@ -1589,6 +1588,13 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .form-btn ion-icon { font-size: 18px; }
+
+  .timeline-item-banner {
+    float: right;
+    width: 200px;
+    max-height: 120px;
+    margin: 0 0 10px 15px;
+  }
 
 }
 
