@@ -16,10 +16,16 @@
 ### Senior Machine Learning Engineer <time> Jul 2025 – Present </time>
 **[Gamania Digital Entertainment](https://www.gamania.com)**
 <location>**Taipei, Taiwan**</location>
+- Built an AI agent-driven platform enabling users to autonomously plan and generate manga content.
+- Developed immersive vertical-scroll webtoon reading features including AI-generated background music and sound effects.
+- Implemented AI virtual character Voice Conversion systems for interactive content.
 
 ### Visiting Researcher <time> Jun 2025 – Oct 2025 </time> 
 **[Sony Computer Science Laboratories (Sony CSL)](https://www.csl.sony.co.jp/en/)**
 <location>**Tokyo, Japan (Hybrid)**</location>
+#### Research Topics: Music Information Retrieval, Automatic Music Transcription
+- Proposed VioPTT, a lightweight cascade model for violin technique-aware transcription with a novel synthetic dataset (MOSA-VPT). Published at ICASSP 2026 **<a href="#publication-1">[1]</a>**.
+- Investigated transfer learning for violin AMT, showing training from scratch on instrument-specific data can match fine-tuned piano-pretrained models. Published at ISMIR 2025 **<a href="#publication-2">[2]</a>**.
 
 ### AI Engineer <time> Oct 2024 – May 2025 </time> 
 **Gate.io** <location>**Taipei, Taiwan (Remote)**</location>
