@@ -7,9 +7,12 @@ body {
     display: block;
     max-width: 800px;
     margin: 0 auto;
-    padding: 0;
-    font-family: Roboto;
+    padding: 0 20px;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
+    color: #222;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .name {
@@ -25,22 +28,25 @@ h1 {
     text-align: center;
     font-weight: bold;
     padding: 0;
-    margin: 1rem 0;
+    margin: 0.8rem 0 0.3rem 0;
+    font-size: 1.8em;
+    color: #000;
 }
 
 h2 {
-    font-size: 1.2em;
+    font-size: 1.15em;
     font-weight: bold;
     border-bottom: 2px solid black !important;
     color: #0D47A1;
-    margin: 10px 0 5px 0;
+    margin: 14px 0 6px 0;
     padding: 0 0 2px 0;
 }
 
 h3 {
     font-size: 1em;
     font-weight: bold;
-    margin: 5px 0 0 0;
+    margin: 6px 0 0 0;
+    line-height: 1.4;
 }
 
 h4 {
@@ -63,18 +69,12 @@ ol {
 
 li {
     line-height: 150%;
-    /* change this for tighter spacing */
-    /* default 150% */
 }
 
-/* assume images are icons */
-/* icons for skills/tools */
 .info img {
     width: 20px;
 }
 
-/* assume images are icons */
-/* icons for contact info */
 .info a img {
     width: 15px;
 }
@@ -91,12 +91,14 @@ time {
     float: right;
     font-size: inherit;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 location {
     float: right;
     font-weight: normal;
-    font-style: bold;
+    font-style: normal;
+    white-space: nowrap;
 }
 
 .info {
@@ -105,27 +107,28 @@ location {
 }
 
 @media print {
+    body {
+        font-size: 11pt;
+        max-width: none;
+        padding: 0;
+    }
+
     h2 {
         break-after: avoid;
-        /* Avoid breaking right after h2 */
     }
 
     h3 {
         break-after: avoid;
-        /* Avoid breaking right after h3 */
     }
 
     h3~p,
     h3~ul,
     h3~ol,
     h3~blockquote {
-        /* Add other tags as necessary */
         break-before: avoid;
-        /* Avoid breaking right before these elements if they follow an h3 */
     }
 
     h3~h3 {
         break-before: auto;
-        /* Allow breaks before a new h3, overriding previous rules */
     }
 }
