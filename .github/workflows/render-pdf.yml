@@ -46,6 +46,7 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add CV.pdf
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Auto-update CV.pdf"
           git pull --rebase
-          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Auto-update CV.pdf"
           git push
