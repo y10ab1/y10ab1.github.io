@@ -1,7 +1,3 @@
----
-layout: minimal
-title: Yueh-Po Peng - CV
----
 <link rel="stylesheet" type="text/css" href="resume.css">
 
 <!-- <span class="name">Yueh-Po Peng</span> -->
