@@ -1,3 +1,8 @@
-*CV.pdf
 .*
+!.opencode/
+!.github/
 .DS_Store
+
+# Customized CV variants (not for public repo)
+CV_*.html
+CV_*.pdf

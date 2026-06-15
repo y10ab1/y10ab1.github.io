@@ -39,13 +39,12 @@ git commit -m "Update portfolio website with vCard template"
 git push origin main
 ```
 
-3. 在 GitHub repository 設定中：
-   - 進入 **Settings** > **Pages**
-   - Source 選擇 **Deploy from a branch**
-   - Branch 選擇 **main** 和 **/ (root)**
-   - 點擊 **Save**
-
-4. 幾分鐘後，您的網站將會在 `https://y10ab1.github.io` 上線
+1. 在 GitHub repository 設定中：
+  - 進入 **Settings** > **Pages**
+  - Source 選擇 **Deploy from a branch**
+  - Branch 選擇 **main** 和 **/ (root)**
+  - 點擊 **Save**
+2. 幾分鐘後，您的網站將會在 `https://y10ab1.github.io` 上線
 
 ## 自訂
 
@@ -80,4 +79,3 @@ git push origin main
 ## 授權
 
 MIT License
-
