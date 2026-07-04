@@ -6,3 +6,9 @@
 # Customized CV variants (not for public repo)
 CV_*.html
 CV_*.pdf
+
+# Private skills (contain personal info)
+.opencode/skills/job-application/
+
+# Job application tracking (private)
+JOB_TRACKER.md
