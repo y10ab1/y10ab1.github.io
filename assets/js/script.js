@@ -180,3 +180,69 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+// Programmatically switch to a page by its data-page name (e.g. "publications").
+// Keeps nav links and page "active" states in sync with the click handler above.
+const activatePage = function (pageName) {
+  let matched = false;
+
+  for (let k = 0; k < pages.length; k++) {
+    if (pages[k].dataset.page === pageName) {
+      pages[k].classList.add("active");
+      matched = true;
+    } else {
+      pages[k].classList.remove("active");
+    }
+  }
+
+  for (let k = 0; k < navigationLinks.length; k++) {
+    if (navigationLinks[k].innerHTML.toLowerCase() === pageName) {
+      navigationLinks[k].classList.add("active");
+    } else {
+      navigationLinks[k].classList.remove("active");
+    }
+  }
+
+  return matched;
+};
+
+// Handle in-page citation links (e.g. [1] -> #publication-1). Because pages are
+// hidden via the SPA navigation above, a plain hash link cannot scroll to a
+// target inside a non-active page. Switch to the Publications page first, then
+// scroll the referenced entry into view.
+const scrollToHashTarget = function (hash) {
+  if (!hash || hash.charAt(0) !== "#") return false;
+
+  const target = document.getElementById(hash.slice(1));
+  if (!target) return false;
+
+  // Make sure the page containing the target is active before scrolling.
+  const parentPage = target.closest("[data-page]");
+  if (parentPage) activatePage(parentPage.dataset.page);
+
+  // Defer to the next frame so layout reflects the now-visible page.
+  requestAnimationFrame(function () {
+    target.scrollIntoView({ behavior: "smooth", block: "center" });
+  });
+
+  return true;
+};
+
+document.addEventListener("click", function (event) {
+  const link = event.target.closest('a[href^="#publication-"]');
+  if (!link) return;
+
+  const hash = link.getAttribute("href");
+  if (scrollToHashTarget(hash)) {
+    event.preventDefault();
+    // Keep the URL hash in sync without triggering the browser's default jump.
+    history.replaceState(null, "", hash);
+  }
+});
+
+// Handle direct visits / reloads with a #publication-* hash already in the URL.
+window.addEventListener("load", function () {
+  if (location.hash.indexOf("#publication-") === 0) {
+    scrollToHashTarget(location.hash);
+  }
+});
