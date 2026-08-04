@@ -28,7 +28,7 @@
 - Investigated transfer learning for violin AMT, showing training from scratch on instrument-specific data can match fine-tuned piano-pretrained models. Published at ISMIR 2025 **<a href="#publication-2">[2]</a>**.
 
 ### AI Engineer <time> Oct 2024 – May 2025 </time> 
-**Gate.io** <location>**Taipei, Taiwan (Remote)**</location>
+**[Gate.io](https://www.gate.io)** <location>**Taipei, Taiwan (Remote)**</location>
 - Developed a Text-to-SQL AI agent enabling non-technical teams to access internal data, boosting query efficiency by 20%.
 - Developed a fund flows anomaly detection system with LLMs and tree-based models, enhancing financial security.
 <!-- - Working on advanced AI-driven research projects in cryptocurrency and financial analytics. -->

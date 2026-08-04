@@ -79,7 +79,16 @@ li {
 
 a {
     color: #0D47A1;
+a {
+    color: #0D47A1;
     text-decoration: none;
+    /* Keep links (e.g. Gate.io, arXiv paper URLs) from breaking mid-word.
+       Allow wrapping at spaces, but never split within a word or URL. */
+    overflow-wrap: normal;
+    word-break: keep-all;
+    -webkit-hyphens: none;
+    hyphens: none;
+}
 }
 
 code {
