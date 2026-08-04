@@ -829,6 +829,16 @@ main {
   line-height: 1.6;
 }
 
+/* The global reset sets `a` and `span` to display:block, which forces inline
+   links (e.g. Gate.io, [1]/[2] citations) onto their own lines. Restore inline
+   flow for links/spans that live inside timeline titles and body text. */
+.timeline-item-title a,
+.timeline-item-title span,
+.timeline-text a,
+.timeline-text span {
+  display: inline;
+}
+
 .timeline-item-banner {
   width: 100%;
   max-height: 160px;
