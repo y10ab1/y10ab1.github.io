@@ -835,8 +835,19 @@ main {
 .timeline-item-title a,
 .timeline-item-title span,
 .timeline-text a,
-.timeline-text span {
+.timeline-text span,
+.about-text a {
   display: inline;
+}
+
+.timeline-text a,
+.about-text a {
+  color: var(--orange-yellow-crayola);
+}
+
+.timeline-text a:hover,
+.about-text a:hover {
+  text-decoration: underline;
 }
 
 .timeline-item-banner {

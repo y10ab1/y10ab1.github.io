@@ -16,9 +16,17 @@
 ### Senior Machine Learning Engineer <time> Jul 2025 – Present </time>
 **[Gamania Digital Entertainment](https://www.gamania.com)**
 <location>**Taipei, Taiwan**</location>
-- Built an AI agent-driven platform enabling users to autonomously plan and generate manga content.
-- Developed immersive vertical-scroll webtoon reading features including AI-generated background music and sound effects.
-- Implemented AI virtual character Voice Conversion systems for interactive content.
+#### AI Manga & Webtoon Creation Platform ([Muztrix](https://muztrix.gamaniaocc.com))
+- Led development of Muztrix, a public AI platform where a conversational agent collaborates with creators through multi-turn dialogue (Ask/Agent modes, tool calling, web search, file uploads) to develop storylines, then orchestrates generation of characters, locations, storyboards, and page or vertical-scroll manga.
+- Designed a retrieval-augmented storyboard system with reference-image binding and versioned image editing to keep characters and locations visually consistent across panels.
+- Integrated multiple generation models for images, line art, image-to-3D, and music, and built an AI game studio where coding agents create and publish web games inside isolated cloud sandboxes.
+- Shipped a full-stack production service (Next.js, FastAPI, PocketBase on GCP Cloud Run) with CI/CD, monitoring, usage-based credits, OAuth, and 4-language i18n; reduced manga chapter prototyping from days to under 30 minutes.
+#### Multimodal AI Applications
+- Prototyped retail and restaurant video analytics combining segmentation/detection, speech recognition, and vision-language models.
+- Built an AI comic-diary LINE Bot for older adults with LLM story writing, image generation, and TTS narration.
+#### AI Vtuber & Voice
+- Trained voice cloning models enabling AI virtual characters to cover songs in target speaker voices with ~30 minutes of training data.
+- Integrated Live2D avatar animation with LLM-driven persona dialogue and voice cloning, and designed expressive TTS voices for game characters.
 
 ### Visiting Researcher <time> Jun 2025 – Oct 2025 </time> 
 **[Sony Computer Science Laboratories (Sony CSL)](https://www.csl.sony.co.jp/en/)**
@@ -99,11 +107,12 @@
 
 **<a id="publication-5">[5]</a>** Cheung, V. K.\*, **Peng, Y. P.\***, Lin, J. H., & Su, L.
   "Decoding Musical Pitch from Human Brain Activity with Automatic Voxel-Wise Whole-Brain FMRI Feature Selection," Proc. IEEE Int. Conf. on Acoustics, Speech, and Signal Processing 2023 (ICASSP'23). **(\* equally contributed)**
-  **[Paper](https://arxiv.org/abs/2407.16639)**
+  **[Paper](https://arxiv.org/abs/2303.01599)**
 
 <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 20px 0;">
 
 ## Skills
 
-- **Languages/Frameworks**: Python, PyTorch, TensorFlow, Pandas, Scikit-learn, Slurm, Go, HTML, JavaScript, C++, C, Linux.
-- **Skillset**: Self-Supervised Learning, Medical Imaging, Computer Vision, Music Information Research, Distributed Training.
+- **Languages/Frameworks**: Python, PyTorch, TensorFlow, Hugging Face, LangChain, LlamaIndex, Pandas, Scikit-learn, TypeScript, JavaScript, React, Next.js, FastAPI, Go, Slurm, C++, C, Linux.
+- **Cloud/Infra**: GCP (Cloud Run, Vertex AI), AWS, Cloudflare Workers, TWCC HPC, Docker, PocketBase, Git, CI/CD.
+- **Skillset**: LLM Agents, Tool Calling, RAG, Vision-Language Models, Image/Audio Generation, Prompt Engineering, Text-to-SQL, Voice Cloning, Self-Supervised Learning, Computer Vision, Music Information Retrieval, Multimodal Learning, Distributed Training.
