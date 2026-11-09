@@ -5,10 +5,11 @@
 # Yueh-Po Peng
 
 <div style="text-align: center;">
-<a href="mailto:yuehpo.peng@gmail.com"><img src="assets/mail-svgrepo-com.svg" alt="Mail" width="16" height="16" style="vertical-align: text-bottom;"></a> |
-<a href="https://github.com/y10ab1"><img src="assets/github-142-svgrepo-com.svg" alt="GitHub" width="16" height="16" style="vertical-align: text-bottom;"></a> |
-<a href="https://linkedin.com/in/yueh-po-peng"><img src="assets/linkedin-svgrepo-com.svg" alt="LinkedIn" width="16" height="16" style="vertical-align: text-bottom;"></a> |
-<a href="https://scholar.google.com/citations?user=uFf4DmoAAAAJ"><img src="assets/googlescholar-svgrepo-com.svg" alt="Google Scholar" width="16" height="16" style="vertical-align: text-bottom;"></a>
+Taipei, Taiwan |
+<a href="mailto:yuehpo.peng@gmail.com">yuehpo.peng@gmail.com</a> |
+<a href="https://linkedin.com/in/yueh-po-peng">linkedin.com/in/yueh-po-peng</a> |
+<a href="https://github.com/y10ab1">github.com/y10ab1</a> |
+<a href="https://scholar.google.com/citations?user=uFf4DmoAAAAJ">Google Scholar</a>
 </div>
 
 ## Experience
@@ -21,14 +22,11 @@
 - Designed a retrieval-augmented storyboard system with reference-image binding and versioned image editing to keep characters and locations visually consistent across panels.
 - Integrated multiple generation models for images, line art, image-to-3D, and music, and built an AI game studio where coding agents create and publish web games inside isolated cloud sandboxes.
 - Shipped a full-stack production service (Next.js, FastAPI, PocketBase on GCP Cloud Run) with CI/CD, monitoring, usage-based credits, OAuth, and 4-language i18n; reduced manga chapter prototyping from days to under 30 minutes.
-#### Multimodal AI Applications
-- Prototyped retail and restaurant video analytics combining segmentation/detection, speech recognition, and vision-language models.
-- Built an AI comic-diary LINE Bot for older adults with LLM story writing, image generation, and TTS narration.
 #### AI Vtuber & Voice
 - Trained voice cloning models enabling AI virtual characters to cover songs in target speaker voices with ~30 minutes of training data.
 - Integrated Live2D avatar animation with LLM-driven persona dialogue and voice cloning, and designed expressive TTS voices for game characters.
 
-### Visiting Researcher <time> Jun 2025 – Oct 2025 </time> 
+### Visiting Researcher (Contract) <time> Jun 2025 – Oct 2025 </time> 
 **[Sony Computer Science Laboratories (Sony CSL)](https://www.csl.sony.co.jp/en/)**
 <location>**Tokyo, Japan (Hybrid)**</location>
 #### Research Topics: Music Information Retrieval, Automatic Music Transcription
@@ -41,14 +39,15 @@
 - Developed a fund flows anomaly detection system with LLMs and tree-based models, enhancing financial security.
 <!-- - Working on advanced AI-driven research projects in cryptocurrency and financial analytics. -->
 
-<!-- ### Research Assistant <time> Jul 2024 – Oct 2024 <br> Mar 2022 – Feb 2023 </time>  -->
-### Research Assistant <time> Mar 2022 – Oct 2024 </time>
-**[Institute of Information Science, Academia Sinica](https://www.iis.sinica.edu.tw/zh/index.html) | [MCTLAB](https://sites.google.com/view/mctl/) | Supervisor: Dr. Li Su** 
+### Machine Learning Engineer (Research) <time> Mar 2022 – Oct 2024 </time>
+**[Academia Sinica](https://www.iis.sinica.edu.tw/zh/index.html)**
 <location>**Taipei, Taiwan**</location>
+
+Institute of Information Science · [MCTLAB](https://sites.google.com/view/mctl/) · Supervisor: Dr. Li Su
 #### Research Topics: Self-Supervised Learning, Medical Imaging
-- Proposed a Transformer-based self-supervised learning method for decoding brain signals (fMRI), achieving an 77% reduction in memory footprint.
-- Conducted distributed training experiments on high-resolution 4D medical images (fMRI) using TWCC HPC.
-- Proposed a whole-brain feature selection method for decoding musical pitch from fMRI **<a href="#publication-5">[5]</a>**.
+- Designed a Transformer-based self-supervised learning pipeline for large-scale 4D fMRI, cutting GPU memory footprint by 77% through architectural redesign.
+- Built and ran multi-node distributed training on TWCC HPC (Slurm) for high-resolution volumetric brain data.
+- Developed a whole-brain feature selection method for fMRI decoding **<a href="#publication-5">[5]</a>**, later extended into transferable whole-brain representations **<a href="#publication-3">[3]</a>**.
 
 ### AI Engineer Intern <time> Mar 2023 – Jul 2024 </time>
 **[Tomofun](https://furbo.com/tw) - World's leading pet technology company** <location>**Taipei, Taiwan**</location>
