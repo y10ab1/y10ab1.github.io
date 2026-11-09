@@ -95,15 +95,24 @@ code {
     color: black;
 }
 
+/* Right-aligned date/location via flex (not float) so the PDF text order
+   stays "Title, Date, Company, Location" for ATS parsers. Floats get
+   emitted out of reading order, detaching dates from their jobs. */
+h3:has(> time),
+p:has(> location) {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1em;
+}
+
 time {
-    float: right;
     font-size: inherit;
     font-weight: bold;
     white-space: nowrap;
 }
 
 location {
-    float: right;
     font-weight: normal;
     font-style: normal;
     white-space: nowrap;
